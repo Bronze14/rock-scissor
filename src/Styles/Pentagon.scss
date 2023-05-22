@@ -1,0 +1,56 @@
+.pentagon {
+    margin: auto;
+    margin-top: 48px;
+    width: 472px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .corner-button{
+        position: absolute;
+        width: 145px;
+        height: 148px;
+        border-radius: 50%;
+        background: linear-gradient(0deg, #F3F3F3 0%, #DADADA 98.34%);
+        border: 20px solid #EB9F0E;
+        box-shadow: inset 0px 5.5px 0px #BABFD4;
+       
+        cursor: pointer;
+
+
+    }
+    .corner-button:active {
+        background: linear-gradient(0deg, #DADADA 0%, #F3F3F3 98.34%);
+        box-shadow: inset 0px 0px 0px #BABFD4;
+        transform: translateY(2px);
+      }
+    .top{
+        top: 0%;
+    }
+    .bottom-left{
+        left: 12%;
+        bottom: 0%;
+        border-color: #834EE3;
+    }
+    .bottom-right{
+        right: 12%;
+        bottom: 0%;
+        border-color: #DB2E4D;
+    }
+    .top-left{
+        left: 0%;
+        top: 25%;
+        border-color: #2D8DAB;
+    }
+    .top-right{
+        right: 0%;
+        top: 25%;
+        border-color: #4664F4;
+    }
+    svg{
+        
+        
+    }
+
+  }

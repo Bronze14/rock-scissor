@@ -1,0 +1,23 @@
+
+
+
+
+
+
+@mixin h600 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+};
+@mixin h700 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-align: left;
+    
+};
