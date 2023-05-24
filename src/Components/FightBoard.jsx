@@ -81,7 +81,6 @@ function FightBoard({ playerOption, computerOption, winner, handleReset }) {
         )}
       </div>
       <div className='player--Block'>
-          <>
             <span>THE HOUSE PICKED</span>
             
             {showComputerOption ? (
@@ -92,7 +91,7 @@ function FightBoard({ playerOption, computerOption, winner, handleReset }) {
             <button className={`token--Fight--hide ${computerOption} ${showResult && winner === 'YOU LOSE' ? 'ripple-animation' : ''}`}></button>
 
             )}          
-         </>
+        
       </div>
     </div>
   );

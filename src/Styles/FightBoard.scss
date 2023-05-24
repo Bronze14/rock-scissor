@@ -82,7 +82,7 @@ $green: gray;
     box-shadow: inset 0px 5.5px 0px #BABFD4;
     
        svg{
-        size: 50px;
+        transform: scale(2);
     }
     
 
@@ -161,4 +161,72 @@ $green: gray;
                   0 0 0 20px rgba($green, 0);
     }
   }
-  
+
+@media screen and (max-width: 950px) {
+    .Fight--Board{
+        margin: 0 !important;
+        height: 360px;
+        align-items: flex-start;
+    }
+    .player--Block{
+        margin-top: 40px;
+        width: 200px;
+        align-items: center;
+        span{
+            font-size: 15px;
+            letter-spacing: 1.9px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+        }
+        .token--Fight{
+            order: -1;
+        }
+    }
+    .winner--Block{
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 50px;
+        margin-right: 50px;
+        button{
+
+        }
+
+    
+    }
+    .token--Fight--hide {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin: 0;
+        border: none;
+    }
+    .token--Fight{
+        position: relative;
+        width: 130px;
+        height: 133px;
+        border-radius: 50%;
+        border-width: 15px;
+        box-shadow: inset 0px 5.5px 0px #BABFD4;
+           svg{
+            transform: scale(1);
+        }
+        
+    
+    }
+    .token--Fight--hide{
+        order: -1;
+        margin-top: 23px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

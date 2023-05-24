@@ -54,3 +54,42 @@
     }
 
   }
+ @media screen and (max-width: 950px) {
+    .pentagon{
+        width: 311px;
+        height: 305px;
+        .corner-button{
+
+            width: 96px;
+            height: 97px;
+            border-radius: 50%;
+
+            border-width: 10px;
+            box-shadow: inset 0px 5.5px 0px #BABFD4;
+           
+            svg{
+                transform: scale(0.8);
+            }
+            
+    
+        }  
+        .svg--Pentagon{
+            z-index: -1;
+            transform: scale(0.70);
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }

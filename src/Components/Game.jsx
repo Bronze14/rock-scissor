@@ -12,7 +12,6 @@ function getRandomOption() {
 function determineWinner(playerOption, computerOption) {
   // Logika porównywania wyborów i zwracania wyniku
   // ...
-  console.log(playerOption,computerOption)
     if (
       (playerOption === 'Scissors' && (computerOption === 'Paper' || computerOption === 'Lizard')) ||
       (playerOption === 'Paper' && (computerOption === 'Rock' || computerOption === 'Spock')) ||
@@ -68,9 +67,7 @@ function Game() {
     setComputerOption(item=>getRandomOption())
   };
 
-  console.log(parentPick)
-  console.log(computerOption)
-  console.log(winner)
+
   function ShowRules(){
     setShowRules(item => !item)
   }
@@ -112,7 +109,7 @@ function Game() {
 
 
         <button className='rules--Board' onClick={ShowRules}>
-            Rules
+            RULES
         </button>
         
     </div>

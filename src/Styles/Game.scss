@@ -77,3 +77,55 @@ body{
     background-color: #FFFFFF;
     color: #3B4262;
 }
+@media screen and (max-width: 950px) {
+    .score--Board{
+        width: 311px;
+        height: 96px;
+        section{
+            margin-left: 10px;
+            font-size: 10px;
+            line-height: 14px;
+        }
+        div{
+            width: 80px;
+            height: 72px;
+            border-radius: 4px;
+            margin-right: 10px;
+            p{
+                font-size: 10px;
+                line-height: 12px;
+                margin: 0;
+            }
+            span{
+                font-size: 40px;
+                line-height: 40px;    
+            }
+    }
+}
+
+.rules--Board{
+    margin: auto !important;
+    margin-top: 150px !important;
+    margin-bottom: 50px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  
+  
+  
+  

@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { createPlugin as createSassPlugin } from 'vite-plugin-sass';
 
-export default defineConfig({
-  plugins: [react(), createSassPlugin()],
-});
+export default {
+  plugins: [react()],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/Styles/Main.scss";`,
+      },
+    },
+  },
+};
