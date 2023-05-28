@@ -16,7 +16,7 @@ To get started with the project, follow the steps below:
 1. Clone the repository:
 
 ```
-git clone [repository-url]
+git clone https://github.com/Bronze14/rock-scissor.git
 ```
 
 2. Navigate to the project directory:
