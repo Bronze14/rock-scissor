@@ -2,6 +2,13 @@
 
 This is a web-based implementation of the game "Rock, Paper, Scissors, Lizard, Spock". It is built using React.js, HTML, and SCSS. The project is set up with Vite and React, allowing for efficient development and hot module replacement. You can view the live preview of the game [here](https://aesthetic-naiad-ba687e.netlify.app/).
 
+## Screenshots
+
+![image](https://github.com/Bronze14/rock-scissor/assets/76828789/3cbd4fd2-5593-4e19-818f-2e4c422d7d4a)
+
+![image](https://github.com/Bronze14/rock-scissor/assets/76828789/a2e40292-73c1-49be-a499-1f16629dc78a)
+
+
 ## Prerequisites
 
 Before running the project, make sure you have the following dependencies installed:
